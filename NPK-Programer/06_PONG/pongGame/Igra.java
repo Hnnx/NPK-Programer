@@ -26,7 +26,7 @@ public class Igra extends JPanel {
 	public int pointsP1 = 0;
 	public static int pointsP2 = 0;
 
-	private static int maxPoints = 2;
+	private static int maxPoints = 1;
 	private static int maxZmag = 3;
 	private static int steviloZmagP1 = 0;
 	private static int steviloZmagP2 = 0;
@@ -151,7 +151,7 @@ public class Igra extends JPanel {
 	public void gameOver() {		
 
 		//ikona za prikaz ob zmagi
-		ImageIcon win = new ImageIcon("gg.png");		
+		ImageIcon win = new ImageIcon("pic//gg.png");		
 
 		//Konec runde, takoj po temu se izvede soft reset
 		JOptionPane.showMessageDialog(this, "Konec runde!\nZmagovalec je " + getPlayerName(), "KONEC RUNDE!", JOptionPane.PLAIN_MESSAGE, win);		
