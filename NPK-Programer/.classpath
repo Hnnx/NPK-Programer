@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="01_DomaceNaloge"/>
+	<classpathentry kind="src" path="02_Ostalo"/>
+	<classpathentry kind="src" path="03_Grafika"/>
+	<classpathentry kind="src" path="04_InterfaceEventHandling"/>
+	<classpathentry kind="src" path="05_Database"/>
+	<classpathentry kind="src" path="06_PONG"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
