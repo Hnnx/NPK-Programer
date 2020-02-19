@@ -22,6 +22,8 @@ public class SQLite {
 			povezava = DriverManager.getConnection("jdbc:sqlite:tesnaDB.db");
 			
 			String createDB = "CREATE TABLE osebe "+
+			
+			
 							"(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
 								"ime CHAR(30), "+
 								"priimek CHAR(30) NOT NULL, "+
